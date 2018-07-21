@@ -13,6 +13,7 @@
 		A45EFB282103612300E2BC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45EFB262103612300E2BC46 /* Main.storyboard */; };
 		A45EFB342103612300E2BC46 /* IssueTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB332103612300E2BC46 /* IssueTrainTests.swift */; };
 		A45EFB3F2103612300E2BC46 /* IssueTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB3E2103612300E2BC46 /* IssueTrainUITests.swift */; };
+		A45EFB4D2103652900E2BC46 /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A45EFB3A2103612300E2BC46 /* IssueTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IssueTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45EFB3E2103612300E2BC46 /* IssueTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTrainUITests.swift; sourceTree = "<group>"; };
 		A45EFB402103612300E2BC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A45EFB202103612200E2BC46 /* AppDelegate.swift */,
+				A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */,
 				A45EFB222103612200E2BC46 /* ViewController.swift */,
 				A45EFB242103612300E2BC46 /* Assets.xcassets */,
 				A45EFB262103612300E2BC46 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			files = (
 				A45EFB232103612200E2BC46 /* ViewController.swift in Sources */,
 				A45EFB212103612200E2BC46 /* AppDelegate.swift in Sources */,
+				A45EFB4D2103652900E2BC46 /* StatusBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
