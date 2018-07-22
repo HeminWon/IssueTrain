@@ -1,5 +1,5 @@
 //
-//  StatusBarViewController.swift
+//  StatusBarController.swift
 //  IssueTrain
 //
 //  Created by HeminWon on 2018/7/21.
@@ -8,22 +8,21 @@
 
 import Cocoa
 
-class StatusBarViewController: NSViewController {
+class StatusBarController: NSObject {
 
     
-    @IBOutlet weak var statusMenu: NSMenu!
+    var statusMenu: NSMenu!
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
-    
     var marquee = MHMarqueeView()
+ 
     
-    
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override init() {
+        super.init()
+        
         print("hello world")
         
-       
+        statusMenu = NSMenu()
         
         statusItem.button!.title = "状态栏"
         statusItem.menu = statusMenu
@@ -31,16 +30,4 @@ class StatusBarViewController: NSViewController {
         marquee.frame = statusItem.button!.bounds
         statusItem.button?.addSubview(marquee);
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
-    }
-    
-    
-    override func viewWillAppear() {
-        super.viewWillAppear()
-        
-    }
-    
 }

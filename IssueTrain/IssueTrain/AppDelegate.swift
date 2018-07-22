@@ -8,13 +8,14 @@
 
 import Cocoa
 
-@NSApplicationMain
+//@NSApplicationMain // 纯代码需注释
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
+    var statusBarVC: StatusBarController!
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        statusBarVC = StatusBarController()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
