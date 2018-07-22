@@ -14,6 +14,7 @@
 		A45EFB342103612300E2BC46 /* IssueTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB332103612300E2BC46 /* IssueTrainTests.swift */; };
 		A45EFB3F2103612300E2BC46 /* IssueTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB3E2103612300E2BC46 /* IssueTrainUITests.swift */; };
 		A45EFB4D2103652900E2BC46 /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */; };
+		A45EFB5021036B0700E2BC46 /* MHMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EFB4F21036B0700E2BC46 /* MHMarqueeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A45EFB3E2103612300E2BC46 /* IssueTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTrainUITests.swift; sourceTree = "<group>"; };
 		A45EFB402103612300E2BC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarViewController.swift; sourceTree = "<group>"; };
+		A45EFB4F21036B0700E2BC46 /* MHMarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMarqueeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				A45EFB202103612200E2BC46 /* AppDelegate.swift */,
 				A45EFB4C2103652900E2BC46 /* StatusBarViewController.swift */,
+				A45EFB4E21036AC400E2BC46 /* MarqueeView */,
 				A45EFB222103612200E2BC46 /* ViewController.swift */,
 				A45EFB242103612300E2BC46 /* Assets.xcassets */,
 				A45EFB262103612300E2BC46 /* Main.storyboard */,
@@ -125,6 +128,14 @@
 				A45EFB402103612300E2BC46 /* Info.plist */,
 			);
 			path = IssueTrainUITests;
+			sourceTree = "<group>";
+		};
+		A45EFB4E21036AC400E2BC46 /* MarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				A45EFB4F21036B0700E2BC46 /* MHMarqueeView.swift */,
+			);
+			path = MarqueeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				A45EFB232103612200E2BC46 /* ViewController.swift in Sources */,
 				A45EFB212103612200E2BC46 /* AppDelegate.swift in Sources */,
+				A45EFB5021036B0700E2BC46 /* MHMarqueeView.swift in Sources */,
 				A45EFB4D2103652900E2BC46 /* StatusBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
